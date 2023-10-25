@@ -5,7 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(magit-todos-insert-after '(bottom) nil nil "Changed by setter of obsolete option `magit-todos-insert-at'")
  '(org-agenda-files
-   '("/Users/jajal/gnosis/functional-analysis.org" "/Users/jajal/gnosis/information-theory-inference-and-learning.org" "/Users/jajal/gnosis/paper-readings.org" "/Users/jajal/gnosis/pytorch-notes.org" "/Users/jajal/gnosis/journal/2023-10-20"))
+   '("/Users/jajal/gnosis/journal/2023-10-20" "/Users/jajal/gnosis/functional-analysis.org" "/Users/jajal/gnosis/information-theory-inference-and-learning.org" "/Users/jajal/gnosis/paper-readings.org" "/Users/jajal/gnosis/pytorch-notes.org"))
  '(org-journal-date-format "%A, %d %B %Y")
  '(org-journal-date-prefix "* ")
  '(org-journal-dir "/Users/jajal/gnosis/journal/")
