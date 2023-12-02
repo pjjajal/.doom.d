@@ -79,3 +79,17 @@
 ;; org-journal config
 (setq org-journal-file-type 'daily)
 (setq org-journal-file-format "%Y-%m-%d")
+
+;; org-export config
+;;
+;;latex backend config
+(setq org-latex-src-block-backend 'minted
+      org-latex-packages-alist '(("" "minted"))
+      org-latex-pdf-process
+      '("pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+        "pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"))
+(setq org-latex-minted-options '(("breaklines" "true")
+                                 ("breakanywhere" "true")))
+
+;; ob-mermaid
+(setq ob-mermaid-cli-path "/opt/homebrew/bin/mmdc")
