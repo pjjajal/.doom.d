@@ -93,3 +93,6 @@
 
 ;; ob-mermaid
 (setq ob-mermaid-cli-path "/opt/homebrew/bin/mmdc")
+
+;; deft
+(setq deft-directory "~/gnosis")
